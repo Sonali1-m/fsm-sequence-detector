@@ -39,6 +39,13 @@ Finite State Machine (FSM) Design
 - The pattern can overlap; for example, in 1011011, the second 1011 is still detected.
 - Output is 1 only for one cycle when sequence is matched.
 
+⚙️ Mealy vs Moore FSM – Quick Comparison
+| Feature           | Mealy FSM                            | Moore FSM       |
+| ----------------- | ------------------------------------ | --------------- |
+| Output depends on | State + Input                        | Only on State   |
+| Response Time     | Faster (1 cycle earlier)             | Slightly slower |
+| Output Stability  | May flicker if input changes quickly | More stable     |
+| States Required   | Usually fewer                        | Sometimes more  |
 
 
 ## 🧪 How to Simulate (One Command Set for All)
